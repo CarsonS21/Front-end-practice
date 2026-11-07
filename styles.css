@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg);
+    /*this is a comment*/
+    background-position: right top;
+}
+h1{
+    background-color: blue;
+}
+#welcome {
+    background-color: red;
+    opacity: 0.50;
+}
+h1.heading{
+    background-color: aliceblue;
+    color: purple;
+}
+
+*{
+    color: blue;
+    text-align: center;
+}
