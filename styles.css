@@ -1,21 +1,27 @@
-body {
-    background-image: url(https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg);
-    /*this is a comment*/
-    background-position: right top;
-}
-h1{
-    background-color: blue;
-}
-#welcome {
-    background-color: red;
-    opacity: 0.50;
-}
-h1.heading{
-    background-color: aliceblue;
-    color: purple;
+body{
+
 }
 
-*{
-    color: blue;
-    text-align: center;
+b{
+    margin-top: 200px;
 }
+p{
+    color: red;
+    margin-left: 50%;
+    margin-top: inherit;
+    border: 3px solid purple;
+    border-radius: 15px;
+}
+.heading{
+    margin: 50px 50px 50px 50px;
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-left: 10px dashed purple;
+
+}
+#welcome{
+    border-style: double dotted dashed hidden;
+    border-width: thick 16px thin 200px;
+    border-color: green purple blue red;
+}
+/*dots are for class names, # are for ids*/
