@@ -3,14 +3,16 @@ body{
 }
 
 b{
-    margin-top: 200px;
-}
+    margin-top: 200px;}
 p{
     color: red;
     margin-left: 50%;
     margin-top: inherit;
     border: 3px solid purple;
     border-radius: 15px;
+    padding-left: 40px;
+    padding: 10px;
+
 }
 .heading{
     margin: 50px 50px 50px 50px;
@@ -24,4 +26,9 @@ p{
     border-width: thick 16px thin 200px;
     border-color: green purple blue red;
 }
+.testing{
+    outline-style: solid;
+    border: 2px dashed green;
+    outline-offset: 10px;
 /*dots are for class names, # are for ids*/
+}
